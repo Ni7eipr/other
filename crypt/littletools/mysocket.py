@@ -38,9 +38,9 @@ cmddict={
         }
 
 # 函数名
-cmd = "zhalan"
+cmd = "debase64"
 # 参数
-msg = ["NlEyQd{seft}","20"]
+msg = ["UUyFTj8PCzF6geFn6xgBOYSvVTrbpNU4OF9db9wMcPD1yDbaJw==","20"]
 # 调用
 print cmddict[cmd](msg)
 
