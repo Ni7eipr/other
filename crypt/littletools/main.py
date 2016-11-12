@@ -38,9 +38,9 @@ cmddict={
         }
 
 # 函数名
-cmd = "debase64"
+cmd = "kaisa"
 # 参数
-msg = ["UUyFTj8PCzF6geFn6xgBOYSvVTrbpNU4OF9db9wMcPD1yDbaJw==","20"]
+msg = ["synt{mur_VF_syn9_svtug1at}","20"]
 # 调用
 print cmddict[cmd](msg)
 
