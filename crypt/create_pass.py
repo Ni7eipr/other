@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import hashlib
 import sys
 import getpass
@@ -7,7 +9,7 @@ import win32clipboard
 import win32con
 
 def setText(aString):
-    wwin32clipboard.OpenClipboard()
+    win32clipboard.OpenClipboard()
     win32clipboard.EmptyClipboard()
     win32clipboard.SetClipboardData(win32con.CF_TEXT, aString)
     win32clipboard.CloseClipboard()
@@ -39,7 +41,7 @@ data = base64.b64encode(data)
 data = data.replace(data[lpos], chr(95), 1)
 data = data.replace(data[dpos], chr(46), 1)
 setText(data)
-
+print u"已存至剪切板"
 # #!/usr/bin/env python
 # import hashlib
 # import sys
