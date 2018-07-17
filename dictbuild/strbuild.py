@@ -17,3 +17,5 @@ alla = "'ABCDEFGHIJKLMNOPQRSTUVWXYabcdefghijklmnopqrstuvwxyz0123456789'"
 alll = "'abcdefghijklmnopqrstuvwxyz0123456789'"
 allu = "'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'"
 iterall(1,6,hexl)
+
+
